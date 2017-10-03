@@ -75,8 +75,9 @@
     <div class="caption">
         <h4>前端开发方向</h4>
     </div>
-    <c:forEach var="list" items="${positions}">
+
     <div class="row">
+        <c:forEach var="list" items="${positions}">
         <div class="col-md-4 col-sm-6 col-xs-12 top-margin">
 
             <div class="warp-border">
@@ -143,8 +144,8 @@
             </div>
         </div>
         </c:forEach>
-        <!-- 标记 -->
     </div>
+
 
     <div class="caption">
         <h4>前端开发方向</h4>
@@ -214,7 +215,6 @@
 
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12 top-margin">
-
             <div class="warp-border">
                 <div class="clearfix">
                     <div class="icon-people"><img src="${ctx}/static/png/687.png"></div>
@@ -927,6 +927,8 @@
     <div class="footer-bottom">
         Copyright &copy; 2015技能树 www.jnshu.com  All Rights Reserved | 京ICP
     </div>
+</footer>
+
 </footer>
 </body>
 </html>
